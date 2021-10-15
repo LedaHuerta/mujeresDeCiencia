@@ -1,0 +1,24 @@
+/*1. Probar que el CSS esta funcionando  */
+/* h1 {
+    color: aqua;
+} */
+/* 2. Normalizar el CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*3. Crear las variables que utilizaremos
+https://cybmeta.com/introduccion-a-las-variables-css
+Es muy habitual declarar las variables 
+CSS en el pseudoelemento :root para que estén disponibles de forma global:
+*/    
+:root {
+  --font-montserrat: 'Montserrat', sans-serif; 
+  --font-roboto: 'Roboto', sans-serif; 
+}
+
+body {
+  font-family: var(--font-roboto);
+}
+
